@@ -1,8 +1,4 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root"; 
-$dbname = "test_db";
 
 // Since im using Mac then I needed to add this very specific path to connect with MySQL server
 $conn = new mysqli('localhost', 'root', 'root', 'test_db', 3306, '/Applications/MAMP/tmp/mysql/mysql.sock');
